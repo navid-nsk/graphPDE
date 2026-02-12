@@ -56,15 +56,21 @@ nul
 *.sbn
 *.sbx
 
-# Model checkpoints
-*.pt
+# Model checkpoints - exclude intermediate, keep best models
 *.pth
 *.ckpt
+
+# Exclude intermediate epoch checkpoints (keep best_model.pt files)
+**/checkpoint_epoch_*.pt
+**/latest_checkpoint.pt
+
+# Exclude large model folder files (training artifacts)
+model/all_predictions.csv
+model/physics_parameters.pkl
 
 # Results and outputs
 results/
 figures/
-checkpoints/
 *.png
 *.pdf
 *.jpg
