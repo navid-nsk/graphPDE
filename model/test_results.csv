@@ -1,0 +1,8 @@
+metric,value
+mae,13.79536
+rmse,32.73065
+mape,46.35595
+r2,0.71706057
+median_ae,7.0460014
+mean_relative_error,2.1196089
+loss,1041.4593004499163

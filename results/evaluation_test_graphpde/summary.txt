@@ -1,0 +1,15 @@
+============================================================
+GraphPDE Test Set Evaluation Summary
+============================================================
+
+Checkpoint: checkpoints\graphpde\best_model.pt
+Epoch: 268
+
+Test Samples: 76,624
+
+Metrics:
+  MAE:      10.36
+  RMSE:     24.97
+  MAPE:     42.34%
+  R²:       0.7650
+  Median AE:5.60

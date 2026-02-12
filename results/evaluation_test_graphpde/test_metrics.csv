@@ -1,0 +1,13 @@
+metric,value
+mae,10.359336
+rmse,24.974075
+mape,42.341198
+r2,0.7649911
+median_ae,5.5980673
+mean_relative_error,1.7912668
+n_samples,76624
+mean_target,25.671696
+mean_prediction,23.706526
+std_target,51.51661
+std_prediction,45.07887
+loss,623.7045461288646

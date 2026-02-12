@@ -37,13 +37,13 @@ env/
 .claude/
 nul
 
-# Data files (large)
+# Data files (large - to be shared via Figshare)
+data/
+data_population/
 *.pkl
 *.pickle
 *.h5
 *.hdf5
-*.csv
-*.xlsx
 *.parquet
 *.feather
 
@@ -55,27 +55,6 @@ nul
 *.cpg
 *.sbn
 *.sbx
-
-# Model checkpoints - exclude intermediate, keep best models
-*.pth
-*.ckpt
-
-# Exclude intermediate epoch checkpoints (keep best_model.pt files)
-**/checkpoint_epoch_*.pt
-**/latest_checkpoint.pt
-
-# Exclude large model folder files (training artifacts)
-model/all_predictions.csv
-model/physics_parameters.pkl
-
-# Results and outputs
-results/
-figures/
-*.png
-*.pdf
-*.jpg
-*.jpeg
-*.gif
 
 # Logs
 *.log
@@ -109,3 +88,8 @@ htmlcov/
 
 # Documentation
 docs/_build/
+
+# Generalizability data (large)
+generalizability/epidemiology/data/
+generalizability/traffic/data/
+generalizability/traffic/data - traffic/

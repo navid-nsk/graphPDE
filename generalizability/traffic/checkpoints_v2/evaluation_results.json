@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-02-12T13:58:54.336372",
+  "model_config": {
+    "hidden_dim": 128,
+    "n_ode_steps": 4,
+    "ode_method": "euler",
+    "use_sensor_attention": true,
+    "n_params": 273174
+  },
+  "data_info": {
+    "n_nodes": 207,
+    "input_window": 12,
+    "pred_horizon": 12,
+    "n_test": 6992
+  },
+  "checkpoints": {
+    "best_model": {
+      "checkpoint": "best_model.pt",
+      "epoch": 149,
+      "metrics": {
+        "rmse": 6.055027397213481,
+        "mae": 2.950852155685425,
+        "mape": 7.054785639047623,
+        "r2": 0.7717133164405823,
+        "rmse_h3": 5.195141782321993,
+        "mae_h3": 2.5818657875061035,
+        "mape_h3": 5.999088287353516,
+        "rmse_h6": 6.153563247193209,
+        "mae_h6": 2.955580711364746,
+        "mape_h6": 7.09313377737999,
+        "rmse_h12": 7.19782424477304,
+        "mae_h12": 3.4173672199249268,
+        "mape_h12": 8.320624381303787
+      },
+      "physics_params": {
+        "free_flow_speed": 64.48018646240234,
+        "jam_density": 0.32128623127937317,
+        "relaxation_rate": 0.5576344728469849,
+        "diffusion_coef": 9.999999974752427e-07
+      }
+    },
+    "last_checkpoint": {
+      "checkpoint": "last_checkpoint.pt",
+      "epoch": 153,
+      "metrics": {
+        "rmse": 6.010870622739318,
+        "mae": 2.949479818344116,
+        "mape": 7.059787213802338,
+        "r2": 0.7750307321548462,
+        "rmse_h3": 5.184813941552822,
+        "mae_h3": 2.5847697257995605,
+        "mape_h3": 5.996303632855415,
+        "rmse_h6": 6.11282633590946,
+        "mae_h6": 2.9535491466522217,
+        "mape_h6": 7.092167437076569,
+        "rmse_h12": 7.10821617658993,
+        "mae_h12": 3.4102141857147217,
+        "mape_h12": 8.332985639572144
+      },
+      "physics_params": {
+        "free_flow_speed": 64.48015594482422,
+        "jam_density": 0.32342293858528137,
+        "relaxation_rate": 0.5590265989303589,
+        "diffusion_coef": 9.999999974752427e-07
+      }
+    }
+  },
+  "baseline_comparison": {
+    "D2STGNN": {
+      "mape_h3": 6.48,
+      "mape_h6": 8.15,
+      "mape_h12": 10.03,
+      "mae_h3": 2.77,
+      "mae_h6": 3.28,
+      "mae_h12": 4.01,
+      "rmse_h3": 5.53,
+      "rmse_h6": 6.85,
+      "rmse_h12": 8.72
+    }
+  }
+}
