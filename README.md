@@ -253,13 +253,21 @@ python run_training_graphpde_updated.py \
 
 #### Available Cities
 
-Default training cities:
+Default training cities (Recommended for Experiment):
 - Toronto, Mississauga, Brampton, Markham, Vaughan
 - Abbotsford, Winnipeg, Surrey, Delta, Burnaby
 
-Other available cities:
-- Richmond Hill, Oakville, Oshawa, Whitby, Hamilton
-- Calgary, Edmonton, Ottawa, Montreal, Vancouver
+Main model trained on cities:
+- Richmond Hill, Oakville, Milton, Oshawa, Whitby
+- Hamilton, Guelph, Cambridge, Kitchener, Waterloo
+- London, Windsor, Barrie, St. Catharines, Kingston
+- Thunder Bay, Greater Sudbury / Grand Sudbury
+- Vancouver, Richmond, North Vancouver, Coquitlam, Langley
+- Chilliwack, Kelowna, Nanaimo, Saanich
+- Calgary, Edmonton, Rocky View County
+- Regina, Saskatoon
+- Montréal, Laval, Longueuil, Brossard, Québec, Gatineau
+- Halifax
 
 ### Multi-Step Training
 
