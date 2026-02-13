@@ -542,20 +542,6 @@ results/
 └── figures/                        # Generated figures
 ```
 
----
-
-## Citation
-
-If you use GraphPDE in your research, please cite:
-
-```bibtex
-@article{graphpde2024,
-  title={GraphPDE: Physics-Informed Graph Neural Networks for Spatio-Temporal Population Dynamics},
-  author={...},
-  journal={...},
-  year={2024}
-}
-```
 
 ---
 
